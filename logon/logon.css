@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    display: flex;
+    justify-content: center;
+    min-width: 360px;
+    height: 821px;
+    background: #3D3E48FF;
+    font-family: PingFang SC;
+    font-weight: 400;
+}
+
+
+.page-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.page-header img{
+    width: 140px;
+    height: 40px;
+}
+
+
+.page-register{
+    margin-top: 59px;
+}
+.page-register h2{
+    display: flex;
+    justify-content: center;
+    height: 23px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.page-register p{
+    font-size: 14px;
+    padding-top: 16px;
+    color: #B1B1B5;
+    text-align: center;
+}
+
+
+.page-body{
+    width: 360px;
+    height: 345px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-content{
+    width: 310px;
+    height: 345px;
+}
+.input-word{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.number{
+    font-size: 14px;
+    color: #A9A9A9;
+    position: absolute;
+    padding-left: 11px;
+}
+
+.input-box{
+    
+    
+}
+.input-box input{
+    width: 310px;
+    height: 40px;
+    background: #FCFCFC;
+    border: 1px solid #E4E4E4;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+}.input-box a{
+
+}
+.input-words{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-words .one{
+    position: absolute;
+    font-size: 12px;
+    color: #FF1900;
+    padding-left: 239px;
+}
+
+
+
+
+.password{
+    margin-top: 76px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 310px;
+    font-size: 0;
+}
+.password-remember{
+    display: flex;
+    align-items: center;
+    width: 80px;
+}
+.password-remember a{
+    float: left;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #96a5b4;
+}
+.password-remember a:hover{
+    background: url(/zh_CN/htmledition/images/icon_ptloginpage1e9c5d.png) no-repeat;
+}
+.password-remember p{
+    font-size: 14px;
+    color: #999999;
+    padding-left: 5px;
+}
+.password-forget{
+
+}
+.password-forget a{
+    font-size: 14px;
+    color: #3F464B;
+    text-decoration: none;
+
+}
+.password-forget a:hover{
+    text-decoration: underline;
+    color:blue
+}
+
+
+
+.button-box{
+    margin-top: 20px;
+}
+.button-box button{
+    width: 310px;
+    height: 45px;
+    background: #62BD82;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #62BD82;
+    outline: none;
+}
+.button-box button:hover{
+    background: #58af08
+}
+
+.page-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.page-footer p{
+    font-size: 14px;
+    color: #F3F5F8;
+}
+.page-footer a{
+    font-size: 14px;
+    color: #62BD82FF;
+    text-decoration: none;
+}
+.page-footer a:hover{
+    text-decoration: underline;
+    color:#58af08
+}
